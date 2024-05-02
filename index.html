@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "E3Mxy6-_5s96rYNfR",
+        });
+      })();
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Antonio Rogers Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header class="header">
+      <div class="container navbar">
+        <h1><a href="#home" class="logo">Antonio R.</a></h1>
+
+        <nav role="navigation">
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="hamburger"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section id="home">
+      <div class="container hero">
+        <div class="hero-info">
+          <h2>I'm Antonio Rogers</h2>
+          <span>Frontend Developer / UI/UX Designer</span>
+          <p>
+            A Developer based in New York, specializing in
+            User Interface Design and Development A
+            Developer based in New York, specializing in
+            User Interface Design and Development
+          </p>
+          <div class="hero-buttons">
+            <a href="#portfolio">
+              <button aria-label="View my portfolio">
+                My Portfolio
+              </button>
+            </a>
+            <a href="/myresume.pdf" download="/resume.pdf">
+              <button aria-label="Download my resume">
+                Download Resume
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="assets/me.jpg"
+            alt="Image of Antonio Rogers"
+          />
+        </div>
+      </div>
+    </section>
+    <!------------- ABOUT SECTION ----------------->
+    <section
+      id="about"
+      class="about"
+      aria-labelledby="about-heading"
+    >
+      <h2 class="section-titles" id="about-heading">
+        About Me
+      </h2>
+      <div class="container about-inner">
+        <div class="about-info">
+          <p>
+            I'm Antonio Rogers, a frontend developer hailing
+            from New York. My expertise lies in crafting
+            captivating user interfaces with a focus on
+            seamless development. Suspendisse eleifend nulla
+            ac rhoncus egestas. Sed vehicula ipsum vitae
+            finibus condimentum. Phasellus rhoncus, nulla et
+            sodales sodales, massa nisl volutpat odio, ac
+            sodales risus metus sollicitudin odio
+          </p>
+          <ul>
+            <li>Age: 30</li>
+            <li>Email: arogerscontact@gmail.com</li>
+            <li>Phone: 123 - 456- 7890</li>
+            <li>Address: 100 DevAntonio Lane</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <div class="progress-bar" data-percentage="100">
+            <div class="label">HTML: 100%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="80">
+            <div class="label">CSS: 80%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="90">
+            <div class="label">JavaScript: 90%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="85">
+            <div class="label">React: 85%</div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------- JOB SECTION ----------------->
+    <section
+      id="experience"
+      class="jobs"
+      aria-labelledby="experience-heading"
+    >
+      <h2 class="section-titles" id="experience-heading">
+        Experience
+      </h2>
+      <div class="container">
+        <div class="job-list">
+          <!-- FIRST LEFT JOB -->
+          <div class="job-item job-item-left">
+            <div>
+              <span class="job-date date-left">
+                May 2023 - Now
+              </span>
+              <div class="job-content">
+                <img
+                  class="job-logo"
+                  src="assets/youtube.png"
+                  alt="youtube logo"
+                />
+                <h5>Content Creator - Youtube</h5>
+                <p>
+                  All the Lorem Ipsum generators on the
+                  Internet tend to repeat predefined chunks
+                  as necessary, making this the first true
+                  generator on the Internet All the Lorem
+                  Ipsum generators on the
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- FIRST RIGHT JOB -->
+          <div class="job-right">
+            <div class="job-item job-item-right">
+              <div>
+                <span class="job-date date-right">
+                  July 2021 - May 2023
+                </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="assets/apple.png"
+                    alt="apple logo"
+                  />
+                  <h5>UI/UX Designer - Apple</h5>
+                  <p>
+                    All the Lorem Ipsum generators on the
+                    Internet tend to repeat predefined
+                    chunks as necessary, making this the
+                    first true generator on the Internet All
+                    the Lorem Ipsum generators on the
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-item job-item-left">
+            <div>
+              <span class="job-date date-left">
+                August 2019 - July 2021
+              </span>
+              <div class="job-content">
+                <img
+                  class="job-logo"
+                  src="assets/fb.png"
+                  alt="facebook logo"
+                />
+                <h5>Software Engineer - Facebook</h5>
+                <p>
+                  All the Lorem Ipsum generators on the
+                  Internet tend to repeat predefined chunks
+                  as necessary, making this the first true
+                  generator on the Internet All the Lorem
+                  Ipsum generators on the
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-right">
+            <div class="job-item job-item-right">
+              <div>
+                <span class="job-date date-right">
+                  July 2015 - May 2018
+                </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="assets/google.png"
+                    alt="apple logo"
+                  />
+                  <h5>UI/UX Designer - Google</h5>
+                  <p>
+                    All the Lorem Ipsum generators on the
+                    Internet tend to repeat predefined
+                    chunks as necessary, making this the
+                    first true generator on the Internet All
+                    the Lorem Ipsum generators on the
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- PROJECT SECTION --------------->
+
+    <section
+      id="portfolio"
+      class="portfolio"
+      aria-labelledby="portfolio-heading"
+    >
+      <h2 class="section-titles" id="portfolio-heading">
+        Some of my work
+      </h2>
+      <div class="container">
+        <div class="projects">
+          <div class="project-images">
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  class="overlay-image"
+                />
+                <img
+                  src="assets/p1.png"
+                  alt="project-image"
+                  data-image="1"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Tech Pulse</h4>
+                <span>Next.js / Tailwind</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Let's Have a <strong>discussion!</strong></h1>
+      </div>
+      <p>
+        Please allow 24-48 hours for a response. Thank you!
+      </p>
+      <div>
+        <form
+          id="contact-form"
+          aria-label="Contact-Form"
+          onsubmit="sendMail()"
+        >
+          <div class="form-row">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-input"
+              placeholder="Your Name"
+              required
+              aria-label="Your name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input"
+              placeholder="Your Email"
+              required
+              aria-label="Your email"
+            />
+          </div>
+
+          <textarea
+            name="message"
+            id="message"
+            rows="6"
+            class="form-input"
+            required
+            placeholder="Enter your message here..."
+            style="resize: none"
+            aria-label="Your message"
+          ></textarea>
+
+          <div class="form-button">
+            <button type="submit">
+              Submit Your Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-container">
+        <p>
+          &copy; 2024 AntonioRogers.com All rights reserved
+        </p>
+
+        <div class="footer-icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-github"></ion-icon>
+          <ion-icon name="logo-discord"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
